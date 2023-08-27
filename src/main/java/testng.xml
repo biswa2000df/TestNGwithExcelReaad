@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="readExcel Test">
+  <test name="testng feature Testing">
+    <classes>
+      
+      <class name="readExcel.com.googleTest"/>
+      <class name="readExcel.com.GoogleTitleTest"/>
+      <class name="readExcel.com.InvocationCountTest"/>
+    
+      <class name="readExcel.com.TestNGfeatureTest"/>
+      <class name="readExcel.com.TimeOutandExceptedException"/>  
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

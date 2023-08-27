@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="parameter Test">
+  <test name="testng feature Testing">
+ <parameter name="url" value="http://www.google.com"/>
+ <parameter name="data" value="youtube"/>
+ <parameter name="Browser" value="chrome"/>
+ <classes>
+ <class name="com.Parameter.ParameterTest"/>
+ </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
